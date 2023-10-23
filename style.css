@@ -1,0 +1,18 @@
+body {
+    background-color: #000;
+    text-align: center;
+  }
+  
+  h1 { 
+    font-size: 100px;
+    color: #e9efec;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    animation: flash 1s ease-in infinite;
+  }
+  
+  @keyframes flash {
+  from {
+     text-shadow: 0px 0px 10px #10c74d, 0px 0px 10px #2cc00f,  0px 0px 25px #21c019, 0px 0px 25px #108b16, 0px 0px 25px #1bc212, 0px 0px 25px #08c52b, 0px 0px 25px #3cbe18, 0px 0px 25px #3dd912,0px 0px 50px #09cd19, 0px 0px 50px #22ca0f, 0px 0px 50px #7B96B8, 0px 0px 150px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px -10px 100px #7B96B8, 0px -10px 100px #7B96B8;
+    }
+  }
